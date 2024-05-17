@@ -1,8 +1,6 @@
 import { useState } from 'react'
 
-
-
-import Card from './Card.jsx'
+import Card from './component/Card.jsx'
 
 function App() {
   // eslint-disable-next-line no-empty-pattern
@@ -11,7 +9,8 @@ function App() {
   return (
     <>
      <h1 className='bg-green-400 text-black p-5 rounded-xl mb-5'>tail wind test</h1>
-     <Card />
+     <Card username= "aarohi" btnText='click me'/>
+     <Card username= "rohit"/>
     </>
   )
 }
