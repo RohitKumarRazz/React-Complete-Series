@@ -12,7 +12,7 @@ import PostCard from "./PostCard.jsx"
 import AuthLayout from "./AuthLayout.jsx"
 import Input from "./Input.jsx"
 import Select from "./Select.jsx"
-
+import Button from "./Button.jsx"
 export{
     Header,
     Footer,
@@ -22,6 +22,7 @@ export{
     RTE,
     Signup,
     Login,
+    Button,
     PostForm,
     PostCard,
     AuthLayout,
